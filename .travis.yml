@@ -1,7 +1,7 @@
 sudo: required
 services:
-	- docker
+  - docker
 
 script:
-	- docker build -t node .
-	- docker images node
+  - docker build -t node .
+  - docker images node
